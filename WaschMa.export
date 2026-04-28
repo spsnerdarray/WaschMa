@@ -915,7 +915,7 @@
         </Dictionary>
         <Single Name="TypeGuid" Type="System.Guid">225bfe47-7336-4dbc-9419-4105a7c831fa</Single>
         <Null Name="EmbeddedTypeGuids" />
-        <Single Name="Timestamp" Type="long">639117018011845982</Single>
+        <Single Name="Timestamp" Type="long">639129112735356946</Single>
       </Single>
       <Single Name="Object" Type="{225bfe47-7336-4dbc-9419-4105a7c831fa}" Method="IArchivable">
         <Single Name="UniqueIdGenerator" Type="string">4124</Single>
@@ -3077,7 +3077,7 @@
         </Dictionary>
         <Single Name="TypeGuid" Type="System.Guid">225bfe47-7336-4dbc-9419-4105a7c831fa</Single>
         <Null Name="EmbeddedTypeGuids" />
-        <Single Name="Timestamp" Type="long">639117034342327912</Single>
+        <Single Name="Timestamp" Type="long">639129127751958528</Single>
       </Single>
       <Single Name="Object" Type="{225bfe47-7336-4dbc-9419-4105a7c831fa}" Method="IArchivable">
         <Single Name="UniqueIdGenerator" Type="string">4120</Single>
@@ -3180,7 +3180,7 @@
                           <List2 Name="Mappings">
                             <Single Type="{47edf8ea-3f84-452c-b998-e18f878578d3}" Method="IArchivable">
                               <Single Name="CreateVariable" Type="bool">True</Single>
-                              <Single Name="Variable" Type="string">T1_WasserTemperatur</Single>
+                              <Single Name="Variable" Type="string">T1_Wassertemperatur</Single>
                             </Single>
                           </List2>
                         </Single>
@@ -3528,7 +3528,7 @@
         </Dictionary>
         <Single Name="TypeGuid" Type="System.Guid">225bfe47-7336-4dbc-9419-4105a7c831fa</Single>
         <Null Name="EmbeddedTypeGuids" />
-        <Single Name="Timestamp" Type="long">639117030626117635</Single>
+        <Single Name="Timestamp" Type="long">639129112569604974</Single>
       </Single>
       <Single Name="Object" Type="{225bfe47-7336-4dbc-9419-4105a7c831fa}" Method="IArchivable">
         <Single Name="UniqueIdGenerator" Type="string">4120</Single>
@@ -4535,71 +4535,6 @@
     <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
       <Single Name="IsRoot" Type="bool">False</Single>
       <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
-        <Single Name="Guid" Type="System.Guid">c1b546ae-bd4e-4351-906e-13562c18d348</Single>
-        <Single Name="ParentGuid" Type="System.Guid">b682e557-ec19-4512-8d4a-aa7118ea381d</Single>
-        <Single Name="Name" Type="string">FB_ProgrammWahl</Single>
-        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
-        <Single Name="TypeGuid" Type="System.Guid">6f9dac99-8de1-4efc-8465-68ac443b7d08</Single>
-        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
-          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
-          <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
-        </Array>
-        <Single Name="Timestamp" Type="long">639117043650684105</Single>
-      </Single>
-      <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
-        <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
-        <Single Name="Implementation" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
-          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
-            <Single Name="TextBlobForSerialisation" Type="string">
-iProgramm.0 := bSchalter1;
-iProgramm.1 := bSchalter2;
-iProgramm.2 := bSchalter3;
-
-
-</Single>
-            <Single Name="LineInfoPersistence" Type="string">c1b546ae-bd4e-4351-906e-13562c18d348_Impl_LineIds</Single>
-          </Single>
-        </Single>
-        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
-          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
-            <Single Name="TextBlobForSerialisation" Type="string">FUNCTION_BLOCK FB_ProgrammWahl
-VAR_INPUT
-	bSchalter1 : BOOL;
-	bSchalter2 : BOOL;
-	bSchalter3 : BOOL;
-END_VAR
-VAR_OUTPUT
-	bWeichspueler : BOOL;
-	iTemperatur	: INT;
-	iWasserMenge : INT;
-	iWaschmittelMenge : INT;
-	iSchleuderDrehzahl : INT;
-	iSchleuderZeit : INT;
-	iRichtungsWechselAnzahl : INT; 
-END_VAR
-VAR
-		iProgramm : INT;
-END_VAR
-</Single>
-            <Single Name="LineInfoPersistence" Type="string">c1b546ae-bd4e-4351-906e-13562c18d348_Decl_LineIds</Single>
-          </Single>
-        </Single>
-        <Single Name="UniqueIdGenerator" Type="string">31</Single>
-        <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
-        <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
-        <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
-      </Single>
-      <Single Name="ParentSVNodeGuid" Type="System.Guid">b682e557-ec19-4512-8d4a-aa7118ea381d</Single>
-      <Array Name="Path" Type="string">
-        <Single Type="string">Device</Single>
-        <Single Type="string">SPS-Logik</Single>
-        <Single Type="string">Application</Single>
-      </Array>
-      <Single Name="Index" Type="int">-1</Single>
-    </Single>
-    <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
-      <Single Name="IsRoot" Type="bool">False</Single>
-      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
         <Single Name="Guid" Type="System.Guid">39b162e0-be70-4714-9607-c0cae74c7331</Single>
         <Single Name="ParentGuid" Type="System.Guid">b682e557-ec19-4512-8d4a-aa7118ea381d</Single>
         <Single Name="Name" Type="string">PLC_PRG</Single>
@@ -4609,125 +4544,92 @@ END_VAR
           <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
           <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
         </Array>
-        <Single Name="Timestamp" Type="long">639117046435212365</Single>
+        <Single Name="Timestamp" Type="long">639129140263176864</Single>
       </Single>
       <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
         <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
         <Single Name="Implementation" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
           <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
             <Single Name="TextBlobForSerialisation" Type="string">
-IF S0_NotHalt THEN
-
-	IF S11_WasserstandHigh THEN
+ IF S0_NotHalt THEN
+	
+ 	IF S11_WasserstandHigh THEN
+		iFehlerCode := iStatusMaschine;
 		iStatusMaschine := 99;
 	END_IF
-
- 
+  
 	CASE iStatusMaschine OF
 		0: (* Ausgeschaltet *)
-		IF bPower THEN
 			iStatusMaschine := 1;
-		END_IF
-	
-		
 		1: (* Programmauswahl *)
-			fbProgrammWahl(
-				bSchalter1:= S1_ProgrammWahl_1, 
-				bSchalter2:= S1_ProgrammWahl_2, 
-				bSchalter3:= S1_ProgrammWahl_3);
-				
 			IF S2_Start THEN
 				iStatusMaschine := 3;
 			END_IF
-		
-		
-		3: (* Starten *)
+			
+		3: (* Start *)
 			IF S3_DeckelGechlossen THEN
 				iStatusMaschine := 4;
-			END_IF	
-		
-		
+			END_IF
+			
 		4: (* Wasser einlassen *)
-			IF W1_Waage &gt;= fbProgrammWahl.iWasserMenge THEN
+			IF W1_Waage &gt;= iWasserMenge THEN
 				V1_Wasser := FALSE;
 				iStatusMaschine := 5;
 			ELSE
-				V1_Wasser := TRUE;
+				V1_Wasser := TRUE;	
 			END_IF
 			
-		
 		5: (* Wasser heizen *)
-			IF T1_WasserTemperatur &gt;= fbProgrammWahl.iTemperatur THEN
+			IF T1_Wassertemperatur &gt;= iSollTemperatur THEN
 				K1_Heizung := FALSE;
 				iStatusMaschine := 6;
 			ELSE
-				K1_Heizung := TRUE;
+				K1_Heizung := TRUE;	
 			END_IF
 
-
-		6: (* Waschmittel dosieren *)
-			IF W1_Waage &gt;= fbProgrammWahl.iWaschmittelMenge THEN
+		6: (* Waschittel dosieren *)
+			IF W1_Waage &gt;= iWaschmittelMenge + iWasserMenge THEN
 				V2_Waschmittel := FALSE;
 				iStatusMaschine := 7;
 			ELSE
-			V2_Waschmittel := TRUE;
+				V2_Waschmittel := TRUE;	
 			END_IF
-		
-
-		7: (* Waschen*)
-			IF iRichtungsWechselAnzahl &gt;= fbProgrammWahl.iRichtungsWechselAnzahl THEN
-
+			
+		7: (* Waschen *)
+			IF iRichtungswechselAnzahl &lt;= 0 THEN
 				iStatusMaschine := 8;
-			ELSE
-				;
+			ELSE 
+				iRichtungswechselAnzahl := iRichtungswechselAnzahl - 1;
 			END_IF
-
-		
+			
 		8: (* Wasser ablassen *)
-			IF W1_Waage &lt;= 10 AND S10_WasserstandLow THEN
+			IF W1_Waage &lt;= 5 AND S10_WasserstandLow THEN
 				iStatusMaschine := 9;
 			ELSE
 				M2_Abwasser := TRUE;
-				V4_Abwasser := TRUE;
+				V4_Abwasser := TRUE;	
 			END_IF
-
+			
+			
 		9: (* Schleudern *)
-			IF iSchleuderZeit &gt;= fbProgrammWahl.iSchleuderZeit THEN
+			IF iSchleuderZeit &lt;= 0 THEN
 				M2_Abwasser := FALSE;
-				V4_Abwasser := FALSE;
+				V4_Abwasser := FALSE; 
 				iStatusMaschine := 0;
 			ELSE
 				M2_Abwasser := TRUE;
-				V4_Abwasser := TRUE;
+				V4_Abwasser := TRUE;					
+				iSchleuderZeit := iSchleuderZeit - 1;
 			END_IF
-
-
+		
+			;
 		99: (* Fehler *)
-		;
-		
-	ELSE	
-		
-		;
+			;
+
 		
 	END_CASE
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-
-
-
-
-
-ELSE
+      
+ ELSE
 	 
  	V1_Wasser        := FALSE;
 	V2_Waschmittel   := FALSE;
@@ -4738,7 +4640,6 @@ ELSE
 	U1_Freigabe    	 := FALSE;
 	U1_Start         := FALSE;
 	U1_SollDrehzahl  := 0;
-	
  END_IF</Single>
             <Single Name="LineInfoPersistence" Type="string">39b162e0-be70-4714-9607-c0cae74c7331_Impl_LineIds</Single>
           </Single>
@@ -4747,18 +4648,25 @@ ELSE
           <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
             <Single Name="TextBlobForSerialisation" Type="string">PROGRAM PLC_PRG
 VAR
-
-	iStatusMaschine : INT;
-	fbProgrammWahl : FB_ProgrammWahl;
-	iRichtungsWechselAnzahl : INT;
-	iSchleuderZeit : INT;
-	bPower : BOOL;
+	bProgrammWahl_1 :BOOL;
+	bProgrammWahl_2 :BOOL;
+	bProgrammWahl_3 :BOOL;
+	
+	iStatusMaschine : INT :=0;
+	
+	iWasserMenge : INT := 100;
+	iSollTemperatur : INT := 60;
+	iWaschmittelMenge : INT := 1;
+	iRichtungswechselAnzahl : INT := 10;
+	iSchleuderZeit : INT := 18;
+	
+	iFehlerCode : INT := 0;
 	
 END_VAR</Single>
             <Single Name="LineInfoPersistence" Type="string">39b162e0-be70-4714-9607-c0cae74c7331_Decl_LineIds</Single>
           </Single>
         </Single>
-        <Single Name="UniqueIdGenerator" Type="string">272</Single>
+        <Single Name="UniqueIdGenerator" Type="string">222</Single>
         <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
         <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
         <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
@@ -4838,7 +4746,7 @@ END_VAR</Single>
         <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
         <Single Name="TypeGuid" Type="System.Guid">98a2708a-9b18-4f31-82ed-a1465b24fa2d</Single>
         <Null Name="EmbeddedTypeGuids" />
-        <Single Name="Timestamp" Type="long">639074655947617495</Single>
+        <Single Name="Timestamp" Type="long">639129139858523083</Single>
       </Single>
       <Single Name="Object" Type="{98a2708a-9b18-4f31-82ed-a1465b24fa2d}" Method="IArchivable">
         <Single Name="AllowEmpty" Type="bool">False</Single>
@@ -4858,7 +4766,7 @@ END_VAR</Single>
           <Single Name="Sensitivity" Type="string">1</Single>
         </Single>
         <Single Name="Interval" Type="{68e48988-4399-454b-ae43-e500b779c242}" Method="IArchivable">
-          <Single Name="Time" Type="string">t#20ms</Single>
+          <Single Name="Time" Type="string">1000</Single>
           <Single Name="Unit" Type="string">ms</Single>
         </Single>
         <Single Name="Event" Type="string"></Single>
